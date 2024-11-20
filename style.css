@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./Images/Glassmorphism\ png.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.container{
+    background: rgba(255, 255, 255,0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inp_feild{
+    width: 70%;
+    padding: 10px;
+    /* border: none; */
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+}
+#inp_feild:hover{
+    border: 1px solid rgb(24, 199, 91);
+    background-color: #0f0f0fbd;
+}
+
+.button{
+    padding: 10px;
+    margin-top: 10px;
+    
+    border-radius: 5px;
+    background-color: #08dd36ef;
+    color: #050505;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(189, 32, 32, 0.2);
+}
+.button:hover{
+    box-shadow: 0 4px 8px rgba(0, 0,0,0.2);
+}
