@@ -11,8 +11,8 @@ body{
     height: 100vh;
 }
 .container{
-    background: rgba(255, 255, 255,0.1);
-    backdrop-filter: blur(10px);
+    background: rgba(8, 133, 182, 0.096);
+    backdrop-filter: blur(5px);
     box-shadow: 0 0 10px rgba(0, 0, 0,0.1);
     padding: 20px;
     border-radius: 10px;
@@ -22,13 +22,21 @@ body{
     justify-content: center;
     align-items: center;
 }
+.inp-box{
+    width: 70vw;
+    
+    display: flex;
+    /* justify-content: space-evenly; */
+}
 #inp_feild{
-    width: 70%;
     padding: 10px;
-    /* border: none; */
-    border-radius: 5px;
+    
+    width: 60%;
+    border-radius: 10px;
     margin-top: 20px;
     color: white;
+    cursor: pointer;
+    /* font-family: 'Courier New', Courier, monospace; */
 }
 #inp_feild:hover{
     border: 1px solid rgb(24, 199, 91);
@@ -36,15 +44,35 @@ body{
 }
 
 .button{
-    padding: 10px;
-    margin-top: 10px;
-    
+    padding: 5px;
+    margin: 10px 0px 0px 10px;
+    border: 2px solid rgb(219, 188, 10);
+    box-sizing: border-box;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: italic;
+  background-color: #08dd36ef;
     border-radius: 5px;
-    background-color: #08dd36ef;
     color: #050505;
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(189, 32, 32, 0.2);
 }
 .button:hover{
+    background: rgba(8, 133, 182, 0.096);
+    color: beige;
     box-shadow: 0 4px 8px rgba(0, 0,0,0.2);
+}
+.read-box{
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    background-color: antiquewhite;
+}
+.task-box{
+    background-color: aqua;
+    width: 40wv;
 }
