@@ -76,3 +76,6 @@ body{
     background-color: aqua;
     width: 40wv;
 }
+.element{
+-webkit-tap-highlight-color: transparent;
+}
