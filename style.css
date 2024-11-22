@@ -55,14 +55,15 @@ body{
   font-optical-sizing: auto;
   font-weight: bolder;
   font-style: italic;
-  background-color: #08dd36ef;
+  background: rgba(230, 245, 20, 0.096);
     border-radius: 5px;
-    color: #050505;
+    color: #f3dc0d;
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(189, 32, 32, 0.2);
 }
 .button:hover{
-    background: rgba(8, 133, 182, 0.096);
+    background-color: #08dd36ef;
+    
     color: beige;
     box-shadow: 0 4px 8px rgba(0, 0,0,0.2);
 }
